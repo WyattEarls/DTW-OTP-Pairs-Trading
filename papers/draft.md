@@ -14,3 +14,19 @@ historical price data for tickers delisted as of the analysis date,
 regardless of the requested date range, which constraints our universe 
 to constituents whose historical data remains accessible rather than
 the full 2014 roster.
+
+## Sharpe Ratio Computation
+
+For each stock, we computed a 52-week rolling Sharpe ratio from weekly
+log returns, using a risk-free rate of 4.5 percent annualized.
+
+## Distance Metrics
+
+We compared two distance metrics for hierarchical clustering. Dynamic
+Time Warping (DTW) computes the minimum-cost alignment between two 
+time series without restriction on the direction of temporal matching.
+Optimal Causal Path (OCP) imposes a causality constraint, restricting the 
+alignment such that later observations in the other. For each pair, we
+computed OCP distance in both directions and took the minimum, since
+the causality constraint is direction-dependent.
+
