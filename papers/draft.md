@@ -40,6 +40,23 @@ across the many simultaneous tests. Prior to cointegration testing, we
 confirmed each series was integrated of order one via Augmented 
 Dickey-Fuller testing.
 
+### Look-Ahead Bias Correction
+
+Before correcting for this bias, clustering and cointegration testing
+were run on the full 2014-2023 sample, rather than Train-period data
+only. This produced 4,993 raw-significant OCP pairs and 3,718 
+raw-significant DTW pairs across all k-values, of which 89 OCP 
+pair-k combinations and 44 DTW pair-k combinations survived
+Benjamini-Hochberg correction. After deduplicating pairs that survived
+correction at more than one k-value, this yielded 46 unique OCP pairs
+(13 Tier 1, 33 Tier 2) and 21 unique DTW pairs (8 Tier 1, 13 Tier 2).
+
+The uncorrected Test-period backtest showed an average Sharpe of 
+11.0622 across OCP-only pairs and 4.2682 across pairs found by both
+methods, with a large gap between the mean and median (3.0129) driven
+by a single pair (CHRW/JNJ) recording a Sharpe of 181.3798 on one
+trade, and early sign that these results were not statistically sound.
+
 ### Hedge Ratio Estimation
 
 We estimated a time-varying hedge ratio using a Kalman filter, modeling
