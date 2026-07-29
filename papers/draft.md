@@ -57,6 +57,18 @@ methods, with a large gap between the mean and median (3.0129) driven
 by a single pair (CHRW/JNJ) recording a Sharpe of 181.3798 on one
 trade, and early sign that these results were not statistically sound.
 
+After restricting clustering, stationarity testing and cointegration 
+testing to Train-period data only, the candidate pool changed 
+substantially: 65 unique DTW pairs and 40 unique OCP pairs survived
+correction, reversing which method appeared more prolific. Of the 27 
+final deduplicated candidate pairs, only 10 (37%) generated any trades
+in the Test period. Among these active pairs, performance remained 
+comparable in magnitude to the uncorrected results (DTW-only pairs:
+median Sharpe 8.1816; pairs found by both method: median Sharpe 
+2.5569; all active pairs positive), indicating that the correction's
+primary effect was on candidate pair selectively and trading
+frequency, rather than on profitability of trades that did occur.
+
 ### Hedge Ratio Estimation
 
 We estimated a time-varying hedge ratio using a Kalman filter, modeling
