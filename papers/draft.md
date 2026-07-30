@@ -77,4 +77,25 @@ initialized and stabilized on Train-period data, then updated
 continuously through the Validation and Test periods without
 re-estimation, preserving out-of-sample integrity.
 
+### Trading
+
+We generated trading signals by standardizing the Kalman filter's
+one-step-ahead prediction error using its own innovative variance,
+producing a z-score at each time step without requiring a separately 
+computed rolling window. Volatility regime was classified each week
+as high or low based on whether rolling spread volatility exceeded 
+1.5 times its median value over the sample. Entry thresholds were 
+regime-dependent, requiring a z-score beyond 2.5 standard deviations
+in high-volatility weeks and 1.5 standard deviations in low-volatility
+weeks, reflecting the wider expected noise band during volatile 
+periods. Positions were closed when the z-score reverted to within 
+0.5 standard deviations of zero, or stopped out if it moved beyond 
+3.5 standard deviations against the open position. Weeks in which 
+insufficient history existed to classify volatility regime were
+excluded from trading. Profit and loss for a given week was computed
+using the position established as of the prior week's close, applied 
+to that week's change in spread, avoiding look-ahead from using the 
+same week's information to both decide and evaluate a trade. 
+
+
 
