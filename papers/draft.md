@@ -97,5 +97,7 @@ using the position established as of the prior week's close, applied
 to that week's change in spread, avoiding look-ahead from using the 
 same week's information to both decide and evaluate a trade. 
 
+### Results
 
-
+<img width="2985" height="1186" alt="ocp_dendrogam_sp500" src="https://github.com/user-attachments/assets/027d819b-2e87-4bd9-9f23-6dd48e35dfc0" />
+**Figure 1.** OCP hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).
