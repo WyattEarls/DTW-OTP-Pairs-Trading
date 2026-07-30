@@ -102,8 +102,13 @@ same week's information to both decide and evaluate a trade.
 <img width="2985" height="1186" alt="ocp_dendrogam_sp500" src="https://github.com/user-attachments/assets/027d819b-2e87-4bd9-9f23-6dd48e35dfc0" />
 **Figure 1.** OCP hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).
 
+
 <img width="2985" height="1186" alt="dtw_dendrogram_sp500" src="https://github.com/user-attachments/assets/ed0eaebf-216d-4c92-b431-ddcfad9107e8" />
 **Figure 2.** DTW hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).
 
+
+<img width="2685" height="1036" alt="sp500_test_period_results" src="https://github.com/user-attachments/assets/80559756-22d2-44e0-b71e-3ef7557f422a" />
+**Figure 3.** DTW vs. OCP: Cumulative PnL (active pairs during Test Period only)
+**Figure 4.** DTW vs. OCP: Average Sharpe (active pairs during Test Period only)
 
 
