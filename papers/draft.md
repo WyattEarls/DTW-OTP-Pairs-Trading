@@ -109,6 +109,7 @@ same week's information to both decide and evaluate a trade.
 
 <img width="2685" height="1036" alt="sp500_test_period_results" src="https://github.com/user-attachments/assets/80559756-22d2-44e0-b71e-3ef7557f422a" />
 **Figure 3.** DTW vs. OCP: Cumulative PnL (active pairs during Test Period only)
+
 **Figure 4.** DTW vs. OCP: Average Sharpe (active pairs during Test Period only)
 
 
