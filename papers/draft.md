@@ -77,7 +77,7 @@ initialized and stabilized on Train-period data, then updated
 continuously through the Validation and Test periods without
 re-estimation, preserving out-of-sample integrity.
 
-### Trading
+### Trading Rule
 
 We generated trading signals by standardizing the Kalman filter's
 one-step-ahead prediction error using its own innovative variance,
