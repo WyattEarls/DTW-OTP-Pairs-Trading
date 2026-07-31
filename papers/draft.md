@@ -97,10 +97,11 @@ using the position established as of the prior week's close, applied
 to that week's change in spread, avoiding look-ahead from using the 
 same week's information to both decide and evaluate a trade. 
 
-### Results
+## Results
 
 <img width="2985" height="1186" alt="ocp_dendrogam_sp500" src="https://github.com/user-attachments/assets/027d819b-2e87-4bd9-9f23-6dd48e35dfc0" />
 <b>Figure 1. OCP hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).</b>
+
 
 
 
@@ -110,12 +111,17 @@ This lopsidedness follows from the mechanics of OCP's causality constraint. A pa
 
 
 <img width="2985" height="1186" alt="dtw_dendrogram_sp500" src="https://github.com/user-attachments/assets/ed0eaebf-216d-4c92-b431-ddcfad9107e8" />
-<b>Figure 2.</b> DTW hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).
+<b>Figure 2. DTW hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).</b>
+
+
+
+DTW clustering also produced uneven cluster sizes. At k=2, cluster 1 contained 140 stocks and cluster 2 contained 216 stocks, a ratio of roughly 1.5 to 1. At k=4, the clusters contained 140, 123, 66 and 27 stocks. At k=7, cluster sizes ranged from 17 to 74 stocks. Unlike OCP, DTW imposes no causality constraint, so it groups stocks based on overall co-movement in their Sharpe ratio series regardless of which stock's movement leads the other's. The resulting imbalance appears comparable in magnitude to that observed under OCP, suggesting cluster size asymmetry in this dataset is not primarily driven by the causality constraint itself, but by the underlying structure of Sharpe ratio similarity across the S&P 500 universe more broadly.
+
 
 
 <img width="2685" height="1036" alt="sp500_test_period_results" src="https://github.com/user-attachments/assets/80559756-22d2-44e0-b71e-3ef7557f422a" />
-<b>Figure 3a.</b> DTW vs. OCP: Cumulative PnL (active pairs during Test Period only)
+<b>Figure 3a. DTW vs. OCP: Cumulative PnL (active pairs during Test Period only)</b>
 
-**Figure 3b.** DTW vs. OCP: Average Sharpe (active pairs during Test Period only)
+<b>Figure 3b. DTW vs. OCP: Average Sharpe (active pairs during Test Period only)</b>
 
 
