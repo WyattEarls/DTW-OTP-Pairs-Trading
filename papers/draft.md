@@ -100,7 +100,8 @@ same week's information to both decide and evaluate a trade.
 ### Results
 
 <img width="2985" height="1186" alt="ocp_dendrogam_sp500" src="https://github.com/user-attachments/assets/027d819b-2e87-4bd9-9f23-6dd48e35dfc0" />
-<b>Figure 1.</b> OCP hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).
+<b>Figure 1. OCP hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).</b>
+
 
 
 OPC clustering produced clearly lopsided results, with cluster 1 containing 205 stocks and cluster 2 containing 151 stocks at k=2. This pattern held at higher k values as well. At k=4, the two largest clusters contained 129 and 123 stocks respectively, while the two smaller clusters contained 76 and 28 stocks. At k=7, the 76-stock cluster from k=4 persisted unchanged, while the remaining stocks fragmented further, including one cluster of 96 stocks.
