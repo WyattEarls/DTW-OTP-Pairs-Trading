@@ -102,6 +102,10 @@ same week's information to both decide and evaluate a trade.
 <img width="2985" height="1186" alt="ocp_dendrogam_sp500" src="https://github.com/user-attachments/assets/027d819b-2e87-4bd9-9f23-6dd48e35dfc0" />
 <b>Figure 1.</b> OCP hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).
 
+OPC clustering produced clearly lopsided results, with cluster 1 containing 205 stocks and cluster 2 containing 151 stocks at k=2. This pattern held at higher k values as well. At k=4, the two largest clusters contained 129 and 123 stocks respectively, while the two smaller clusters contained 76 and 28 stocks. At k=7, the 76-stock cluster from k=4 persisted unchanged, while the remaining stocks fragmented further, including one cluster of 96 stocks.
+
+This lopsidedness follows from the mechanics of OCP's causality constraint. A pair receives a small OCP distance only if it exhibits a genuinely stable directional relationship, since the constraint penalizes any true alignment that requires matching a later observation in one series to an earlier observation in the other. Most pairs of large-cap equities lack a consistent lead-lag relationship over time, so they receive similarly inflated distances and cluster together into one large, undifferentiated group. The smaller, minority clusters are disproportionately composed of pairs with a stable, directionally consistent relationship, which Ward linkage separates out as distinct from the broader majority.
+
 
 <img width="2985" height="1186" alt="dtw_dendrogram_sp500" src="https://github.com/user-attachments/assets/ed0eaebf-216d-4c92-b431-ddcfad9107e8" />
 <b>Figure 2.</b> DTW hierarchical clustering dendrogram, S&P 500 universe, Train period only (2014-2017).
