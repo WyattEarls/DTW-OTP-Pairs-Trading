@@ -125,3 +125,9 @@ DTW clustering also produced uneven cluster sizes. At k=2, cluster 1 contained 1
 <b>Figure 3b. DTW vs. OCP: Average Sharpe (active pairs during Test Period only)</b>
 
 
+
+Figure 3a shows the rebased cumulative profit and loss for the 10 candidate pairs that generated at least one trade during the Test period, with each pair's cumulative value reset to zero at the start of Test to isolate performance within the out-of-sample window. All 10 active pairs ended the period with positive cumulative PnL. The two strongest performers, BIIB/KSS and ALLE/ICE, moved in sharp, discrete jumps rather than gradual reversion, consistent with a small number of large repricing events driving most of their profit rather than continuous mean-reverting behavior. This pattern should temper confidence in the magnitude of their individual Sharpe ratios, since a strategy's risk-adjusted return is less reliably estimated from a handful of large moves than from many smaller ones.
+
+
+
+
