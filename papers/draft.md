@@ -130,6 +130,14 @@ Figure 3a shows the rebased cumulative profit and loss for the 10 candidate pair
 
 Figure 3b reports average Sharpe ratio among active pairs only, grouped by discovery method and by tier. Pairs found exclusively by DTW show a higher average Sharpe (8.17) than pairs found by both DTW and OCP (2.99), and Tier 2 pairs show a marginally higher average Sharpe (5.09) than Tier 1 pairs (4.31). These comparisons should be read cautiously given the underlying sample sizes: only 3 pairs were DTW-only and active, against 7 DTW+OCP pairs, and the DTW-only average is disproportionately influenced by a single pair (LH/WAT, Sharpe 11.95 over 4 trades). With such small active-pair counts, these group averages are suggestive of a pattern rather than statistically conclusive evidence that one discovery method or tier outperforms another.
 
+### Limitations
+
+### Discussion
+
+### Literature Review
+
+
+
 
 
 
