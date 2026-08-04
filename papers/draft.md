@@ -140,6 +140,8 @@ Additionally, tighter entry and exit thresholds could produce more frequent, sma
 
 The backtest also lacks a naive-strategy benchmark. Without comparing against a simple buy-and-hold baseline, it is not possible to establish whether the added complexity of clustering-based pair selection produces returns that justify its cost relative to a much simpler strategy.
 
+Finally, OCP corresponds to the zero-temperature limit of a Thermal Optimal Causal Path (TOP) framework, in which probability mass concentrates entirely on a single optimal path. While OCP is computationally cheaper than TOP, which requires averaging over an ensemble of near-optimal paths, this single-path commitment may make OCP more sensitive to noise in the underlying data than a temperature-averaged approach. Incorporating TOP-based clustering across a range of temperatures could test whether this tradeoff meaningfully affects which pairs are identified and how they perform.
+
 ### Discussion
 
 ### Literature Review
