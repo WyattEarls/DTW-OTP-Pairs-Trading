@@ -138,6 +138,7 @@ Relatedly, this study evaluates a single out-of-sample Test period (2021-2023). 
 
 Additionally, tighter entry and exit thresholds could produce more frequent, smaller trades rather than the large discrete jumps observed in several active pairs, such as LH/WAT's Sharpe of 11.95 over only four trades. Reducing reliance on a small number of large repricing events would produce Sharpe ratios less sensitive to any single trade, though this would need to be weighed against the reduced selectivity of a stricter trading rule.
 
+The backtest also lacks a naive-strategy benchmark. Without comparing against a simple buy-and-hold baseline, it is not possible to establish whether the added complexity of clustering-based pair selection produces returns that justify its cost relative to a much simpler strategy.
 
 ### Discussion
 
