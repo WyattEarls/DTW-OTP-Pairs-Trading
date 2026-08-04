@@ -138,7 +138,7 @@ To evaluate the sensitivity of our results to methodological choices, we conduct
 
 We first ran the full pipeline (clustering, stationarity testing and cointegration testing) on the complete 2014-2023 sample, including Validation and Test period data. This produced 46 unique OCP candidate pairs (13 Tier 1, 33 Tier 2) against 21 unique DTW candidate pairs (8 Tier 1, 13 Tier 2), suggesting OCP was the more prolific method. Test period Sharpe ratios under this specification were implausibly strong and uniform, including a single-trade pair recording a Sharpe of 181.38, indicating the candidate pool had been contaminated by information from the periods used to evaluate it.
 
-
+We then restricted clustering, stationarity testing and cointegration testing to Train-period data only (2014-2017), with the Kalman filter hedge ratio initialized on Train and updated continuously through Validation and Test without re-estimation. Under this corrected specification, DTW identified 65 unique candidate pairs against OCP's 40, reversing which method appeared more prolific. This reversal restored consistency with our earlier finding on the NASDAQ 100 universe, where OCP was similarly the more selective method. The qualitative conclusion regarding pair count is therefore sensitive to whether look-ahead bias is present, underscoring the importance of restricting candidate selection to Train-period data in any pairs trading framework of this kind.
 
 ## Limitations
 
