@@ -136,7 +136,7 @@ Further research could extend the three-period framework from the current ten-ye
 
 Relatedly, this study evaluates a single out-of-sample Test period (2021-2023). This window does not capture the full range of market conditions a pairs trading strategy might encounter, including sustained bear markets or a crisis-driven liquidity shock comparable to 2008 or early 2020. A longer window spanning multiple distinct regimes would allow performance to be evaluated separately across calm and stressed periods, rather than relying on a single three-year sample that may not generalize.
 
-
+Additionally, tighter entry and exit thresholds could produce more frequent, smaller trades rather than the large discrete jumps observed in several active pairs, such as LH/WAT's Sharpe of 11.95 over only four trades. Reducing reliance on a small number of large repricing events would produce Sharpe ratios less sensitive to any single trade, though this would need to be weighed against the reduced selectivity of a stricter trading rule.
 
 
 ### Discussion
