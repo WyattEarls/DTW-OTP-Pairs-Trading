@@ -132,6 +132,11 @@ Figure 3b reports average Sharpe ratio among active pairs only, grouped by disco
 
 ### Limitations
 
+Further research could extend the three-period framework from the current ten-year span (2014-2023) to fifteen or twenty years. A longer Test period specifically, rather than a longer window overall, would give existing candidate pairs more opportunities to complete full entry-exit cycles, increasing the number of active pairs available for comparison. This is distinct from candidate pair count, which is determined by Train-period clustering and cointegration testing and would not necessarily change by simply lengthening the Test-period.
+
+
+
+
 ### Discussion
 
 ### Literature Review
