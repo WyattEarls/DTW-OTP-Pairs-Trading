@@ -134,6 +134,10 @@ Figure 3b reports average Sharpe ratio among active pairs only, grouped by disco
 
 To evaluate the sensitivity of our results to methodological choices, we conducted two robustness checks: one testing sensitivity to look-ahead bias in candidate pair selection, and one testing sensitivity to how trade-count heterogeneity is handled when comparing group performance.
 
+### Sensitivity to Look-Ahead Bias
+
+We first ran the full pipeline (clustering, stationarity testing and cointegration testing) on the complete 2014-2023 sample, including Validation and Test period data. This produced 46 unique OCP candidate pairs (13 Tier 1, 33 Tier 2) against 21 unique DTW candidate pairs (8 Tier 1, 13 Tier 2), suggesting OCP was the more prolific method. Test period Sharpe ratios under this specification were implausibly strong and uniform, including a single-trade pair recording a Sharpe of 181.38, indicating the candidate pool had been contaminated by information from the periods used to evaluate it.
+
 
 
 ## Limitations
