@@ -156,8 +156,9 @@ The backtest also lacks a naive-strategy benchmark. Without comparing against a 
 
 Finally, OCP corresponds to the zero-temperature limit of a Thermal Optimal Causal Path (TOP) framework, in which probability mass concentrates entirely on a single optimal path. While OCP is computationally cheaper than TOP, which requires averaging over an ensemble of near-optimal paths, this single-path commitment may make OCP more sensitive to noise in the underlying data than a temperature-averaged approach. Incorporating TOP-based clustering across a range of temperatures could test whether this tradeoff meaningfully affects which pairs are identified and how they perform.
 
-### Literature Review
+## Literature Review
 
+DTW's application to financial time series has developed largely through modification of what the distance function is applied to, rather than the alignment algorithm itself. Franses & Wiemann (2020) show that a raw value-based distance conflates genuine dissimilarity with differences in price level, a limitation directly relevant to any pair drawn from a universe as heterogeneous in price as the S&P 500. Their fix, replacing point-to-point distance with a growth-rate based feature combining a local rate-of-change measure and a global deviation measure, makes the resulting distance scale-invariant rather than magnitude dependent, and their DTW Barycenter Averaging clustering recovers switching the lead-lag relationships in state-level GDP data that static correlation misses entirely. Bai et al. (2023) modify what is being warped in a different direction, applying DTW not to price levels but to Shannon entropy time series derived from a network's commute-time representations across 347 NYSE stocks, and find that the resulting kernel's dominant entropy value drops sharply ahead of major crises including Black Monday and the Lehman Brothers collapse. Together these results suggest that DTW's usefulness as a similarity measure is not fixed to raw price series, and that the choice of representation, growth rate, entropy or level, can materially change what structure the method recovers.
 
 
 
