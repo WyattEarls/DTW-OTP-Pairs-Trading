@@ -11,6 +11,8 @@ a universe for candidate pairs rather than testing one predetermined pair.
 
 A useful point of contrast comes from outside the DTW literature entirely. Han et al. (2022) build a pairs trading framework from static clustering on firm characteristics and monthly return factors, using Euclidean and Manhattan distance rather than any time-series-aware measure and report a Sharpe of 2.69 for their strongest specification. Their framework has no mechanism for detecting lead-lag or time-shifted co-movement between candidate pairs, precisely the gap between DTW and OCP-based distance measures are built to close. Their result is also a reminder that non-temporal approach can still produce a strong risk-adjusted return, and that temporal similarity alone does not guarantee a tradeable relationship without some economic or statistical basis for why it should persist. 
 
+Stubinger (2019) introduces the optimal causal path algorithm itself and remains the closest methodological precedent to our own comparison, applying OCP directly to minute-by-minute S&P 500 constituent data from 1998 to 2015. The three-step algorithm first estimates a constant lag by minimizing cost along a shifted diagonal, then permits the lag to vary locally by iteratively replacing any segment of the path with a cheaper alternative, and finally reports the estimated lag as the mean offset between matched indices along with its standard deviation as a fluctuation measure. This last step is the basis for Stubinger's pair selection criterion: rather than clustering candidates, the top 10 pairs are chosen directly by the lowest fluctuation around a non-zero, stable lag,  discarding any pairs whose lead-lag structure switches direction within the formation period. 
+
 
 
 ## Methodology
