@@ -4,6 +4,8 @@
 
 Dynamic Time Warping (DTW) addresses part of this limitation by permitting an elastic, non-linear alignment between two series rather than a fixed point-to-point comparison, and has been applied to detect switching co-movement, cluster related assets and quantify lead-lag structure across a range of financial contexts. DTW's alignment is symmetric, however: it establishes that two series co-move without establishing which series leads. The Optimal Causal Path (OCP) algorithm addresses this second limitation directly, restricting the warping path so that later observations in one series cannot be matched to earlier observations in the other, and estimating the resulting lead-lag structure alongside a measure of its stability (Stubinger, 2019).
 
+Existing work studies these two methods largely in isolation from one another. Stubinger (2019) applies OCP as a direct pair-ranking criterion within short daily formation windows and benchmarks the resulting trading strategy against static distance measures, while the DTW literature generally uses DTW distance as an input to clustering without comparing it against a causality-constrained alternative. To our knowledge, no existing study evaluates DTW and OCP as competing distance metrics within an identical clustering and cointegration pipeline, which is the comparison this paper undertakes.
+
 
 
 ## Literature Review
