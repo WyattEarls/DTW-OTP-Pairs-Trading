@@ -205,7 +205,7 @@ Second, this comparison is highly sensitive to look-ahead bias in candidate pair
 
 Third, among the minority of candidate pairs that generated trades during the Test period, all ten recorded positive cumulative profit and loss  regardless of discovery method, and activity rates were comparable between DTW-only and jointly identified pairs. Average Sharpe ratios were somewhat higher among DTW-only pairs than among pairs identified by both methods, though small number of active pairs per group means the difference is suggestive rather than conclusive evidence that one method identifies more tradeable pairs than the other.
 
-
+Taken together, these results suggest that DTW and OCP are complementary rather than competing tools for pair discovery, and that the discipline of restricting candidate selection to information available at the time of trading matters more than the choice of distance metric itself. Future work extending this comparison to a longer sample, a naive buy-and-hold benchmark and a Thermal Optimal Path specification, as discussed in the Limitations section, would help establish whether these findings generalize beyond the specific universe and period tested here.
 
 
 
