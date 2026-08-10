@@ -1,5 +1,7 @@
 # Comparison Between DTW and OCP Clustering on the S&P 500
 
+## Abstract
+
 ## Introduction
 
 Han et al. (2022) frame pairs trading in its classic form: two securities are identified as a pair, and a position is opened long in the relatively undervalued stock and short in the relatively overvalued one whenever their prices diverge beyond a chosen threshold, with the position closed once the divergence reverts. This framework, and the correlation, cointegration and characteristics-based methods typically used to implement it, share an assumption that the relationship between the two series holds fixed over the estimation period. This assumption is increasingly hard to justify given that two stocks may lead one another during one phase of the market cycle and lag during another, a switching relationship that a static distance measure has no mechanism for capturing (Franses & Wiemann, 2020).
