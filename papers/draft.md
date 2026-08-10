@@ -199,7 +199,9 @@ Finally, OCP corresponds to the zero-temperature limit of a Thermal Optimal Caus
 
 This paper presents a comparison between two distance metrics, Dynamic Time Warping (DTW) and Optimal Causal Path (OCP), applied to a survivorship-bias-free universe of S&P 500 constituents across a three-period Train, Validation and Test framework spanning 2014 to 2023. This comparison yields three main contributions to the existing literature.
 
-First, OCP has previously been used almost exclusively as a direct signal-generating and pair-ranking criterion within short formation windows (Stubinger, 2019). 
+First, OCP has previously been used almost exclusively as a direct signal-generating and pair-ranking criterion within short formation windows (Stubinger, 2019). This paper instead applies OCP as a clustering distance directly comparable to DTW, using Ward-linkage hierarchical clustering followed by Engle-Granger cointegration testing with Benjamini-Hochberg correction within clusters. Both distance metrics produce comparably lopsided cluster structures, OCP through its causality constraint and DTW despite imposing no such constraint, suggesting the imbalance reflects the underlying structure of Sharpe ratio similarity across the S&P 500 rather than the causality constraint specifically.
+
+
 
 
 
