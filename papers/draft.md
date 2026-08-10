@@ -203,6 +203,7 @@ First, OCP has previously been used almost exclusively as a direct signal-genera
 
 Second, this comparison is highly sensitive to look-ahead bias in candidate pair selection. When clustering and cointegration testing were run on the full 2014 to 2023 sample, OCP appeared substantially more prolific than DTW, producing 46 unique candidate pairs against DTW's 21, and generated implausibly strong and uniform backtest performance, including a single-trade pair recovering a Sharpe of 181.38. Restricting the pipeline strictly to Train-period data reversed this picture entirely, with DTW identifying 65 unique candidate pairs against OCP's 40, and the extreme performance present under the uncorrected specification disappeared. This reversal demonstrates that comparisons of DTW and OCP conducted without strict period separation risk attributing to distance metric itself a difference in candidate pool an that is actually artifact of information leakage.
 
+Third, among the minority of candidate pairs that generated trades during the Test period, all ten recorded positive cumulative profit and loss  regardless of discovery method, and activity rates were comparable between DTW-only and jointly identified pairs. Average Sharpe ratios were somewhat higher among DTW-only pairs than among pairs identified by both methods, though small number of active pairs per group means the difference is suggestive rather than conclusive evidence that one method identifies more tradeable pairs than the other.
 
 
 
