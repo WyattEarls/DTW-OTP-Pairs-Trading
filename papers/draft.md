@@ -197,6 +197,9 @@ Finally, OCP corresponds to the zero-temperature limit of a Thermal Optimal Caus
 
 ## Conclusion
 
+This paper presents a comparison between two distance metrics, Dynamic Time Warping (DTW) and Optimal Causal Path (OCP), applied to a survivorship-bias-free universe of S&P 500 constituents across a three-period Train, Validation and Test framework spanning 2014 to 2023. This comparison yields three main contributions to the existing literature.
+
+First, OCP has previously been used almost exclusively as a direct signal-generating and pair-ranking criterion within short formation windows (Stubinger, 2019). 
 
 
 
