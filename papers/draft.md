@@ -201,6 +201,8 @@ This paper presents a comparison between two distance metrics, Dynamic Time Warp
 
 First, OCP has previously been used almost exclusively as a direct signal-generating and pair-ranking criterion within short formation windows (Stubinger, 2019). This paper instead applies OCP as a clustering distance directly comparable to DTW, using Ward-linkage hierarchical clustering followed by Engle-Granger cointegration testing with Benjamini-Hochberg correction within clusters. Both distance metrics produce comparably lopsided cluster structures, OCP through its causality constraint and DTW despite imposing no such constraint, suggesting the imbalance reflects the underlying structure of Sharpe ratio similarity across the S&P 500 rather than the causality constraint specifically.
 
+Second, this comparison is highly sensitive to look-ahead bias in candidate pair selection. When clustering and cointegration testing were run on the full 2014 to 2023 sample, OCP appeared substantially more prolific than DTW, producing 46 unique candidate pairs against DTW's 21, and generated implausibly strong and uniform backtest performance, including a single-trade pair recovering a Sharpe of 181.38. Restricting the pipeline strictly to Train-period data reversed this picture entirely, with DTW identifying 65 unique candidate pairs against OCP's 40, and the extreme performance present under the uncorrected specification disappeared. This reversal demonstrates that comparisons of DTW and OCP conducted without strict period separation risk attributing to distance metric itself a difference in candidate pool an that is actually artifact of information leakage.
+
 
 
 
