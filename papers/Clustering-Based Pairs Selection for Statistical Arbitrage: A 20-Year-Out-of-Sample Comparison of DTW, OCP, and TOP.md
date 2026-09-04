@@ -1,13 +1,15 @@
-# Abstract
+# Clustering-Based Pairs Selection for Statistical Arbitrage: A 20-Year-Out-of-Sample Comparison of DTW, OCP, and TOP
 
-# Introduction
+## Abstract
 
-# Literature Review
+## Introduction
 
-# Methodology
+## Literature Review
 
-# Robustness Check
+## Methodology
 
-# Limitations
+## Robustness Check
 
-# Conclusion 
+## Limitations
+
+## Conclusion 
