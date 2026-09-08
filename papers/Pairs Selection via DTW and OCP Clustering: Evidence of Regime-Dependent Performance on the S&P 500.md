@@ -12,9 +12,8 @@
 
 <img width="2986" height="1185" alt="dtw_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/0d292eb2-c6cd-4bbd-bc35-116692091802" />
 <img width="2986" height="1185" alt="ocp_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/8542589c-0070-4c9f-8788-8cdaa355fce2" />
-<img width="2986" height="1185" alt="top_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/0ce7e4b6-e892-4e36-82ce-1459bf90ac94" />
 
-*Figure 1: Hierarchical clustering dendrogram for DTW, OCP, and TOP distance metrics. Train period (2005-2010)*
+*Figure 1: Hierarchical clustering dendrogram for DTW and OCP distance metrics. Train period (2005-2010)*
 
 <img width="990" height="735" alt="pairwise_ari_heatmap_sp500_20y" src="https://github.com/user-attachments/assets/a3952b5c-be36-4a05-abbc-dbf2a1bf1075" />
 
