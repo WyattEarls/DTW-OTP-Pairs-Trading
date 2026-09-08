@@ -10,7 +10,7 @@
 
 ## Methodology
 
-<img width="2986" height="1185" alt="dtw_dendrogram_sp500_20y" src="https://github.com/user attachments/assets/cb129d65-f12e-45c9-97d8-a12dca51bdfe" />
+<img width="2986" height="1185" alt="dtw_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/0d292eb2-c6cd-4bbd-bc35-116692091802" />
 <img width="2986" height="1185" alt="ocp_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/8542589c-0070-4c9f-8788-8cdaa355fce2" />
 <img width="2986" height="1185" alt="top_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/0ce7e4b6-e892-4e36-82ce-1459bf90ac94" />
 
