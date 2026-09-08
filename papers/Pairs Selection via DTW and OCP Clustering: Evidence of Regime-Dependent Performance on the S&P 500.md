@@ -10,6 +10,13 @@
 
 ## Methodology
 
+![DTW, OCP and TOP hierarchical clustering dendrogram](<img width="2986" height="1185" alt="dtw_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/cb129d65-f12e-45c9-97d8-a12dca51bdfe" />)
+[](<img width="2986" height="1185" alt="ocp_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/8542589c-0070-4c9f-8788-8cdaa355fce2" />)
+[](<img width="2986" height="1185" alt="top_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/0ce7e4b6-e892-4e36-82ce-1459bf90ac94" />)
+
+
+
+
 ## Results
 
 <img width="1335" height="885" alt="sharpe_comparison_test_sp500_20y" src="https://github.com/user-attachments/assets/1b99dddb-9c5a-4a5f-9647-6e698c940223" />
