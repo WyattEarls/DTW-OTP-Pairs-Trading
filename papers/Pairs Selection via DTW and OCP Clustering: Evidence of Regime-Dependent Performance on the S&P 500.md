@@ -16,6 +16,15 @@
 
 *Figure 1: Hierarchical clustering dendrogram for DTW, OCP, and TOP distance metrics. Train period (2005-2010)*
 
+<img width="990" height="735" alt="pairwise_ari_heatmap_sp500_20y" src="https://github.com/user-attachments/assets/a3952b5c-be36-4a05-abbc-dbf2a1bf1075" />
+
+*Figure 2: Pairwise ARI Heatmap* 
+
+<img width="2085" height="1486" alt="example_pair_LLY_RF_sp500_20y" src="https://github.com/user-attachments/assets/12bff0e5-fdd3-41a6-bb8e-9e54d90a0c71" />
+
+*Figure 3: Example pair (LLY-RF pair candidate)*
+
+
 
 
 
