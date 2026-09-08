@@ -8,12 +8,17 @@
 
 ## Data
 
-<img width="1335" height="885" alt="sharpe_comparison_test_sp500_20y" src="https://github.com/user-attachments/assets/1b99dddb-9c5a-4a5f-9647-6e698c940223" />
-
-
 ## Methodology
 
 ## Results
+
+<img width="1335" height="885" alt="sharpe_comparison_test_sp500_20y" src="https://github.com/user-attachments/assets/1b99dddb-9c5a-4a5f-9647-6e698c940223" />
+
+<img width="1785" height="1036" alt="cumulative_pnl_test_sp500_20y" src="https://github.com/user-attachments/assets/92509193-fdb2-4215-bb12-bed7c25c4c6b" />
+
+<img width="1335" height="886" alt="transaction_cost_sensitivity_sp500_20y" src="https://github.com/user-attachments/assets/f954566a-fca4-45b4-878e-2bc53f07a969" />
+
+<img width="1484" height="1036" alt="regime_sharpe_comparison_sp500_20y" src="https://github.com/user-attachments/assets/d383777a-5406-4107-904d-21a567425cea" />
 
 ## Robustness Check
 
