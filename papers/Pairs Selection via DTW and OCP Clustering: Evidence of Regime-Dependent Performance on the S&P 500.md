@@ -15,6 +15,8 @@
 
 *Figure 1: Hierarchical clustering dendrogram for DTW and OCP distance metrics. Train period (2005-2010)*
 
+Figure 1 presents the hierarchical clustering dendrograms produced by the DTW and OCP distance metrics on Train-period data (2005-2010). Both methods identify a k=2 partition as the statistically preferred clustering, converging across all three cluster validation indices tested (silhouette-score, Calinski-Harabasz index, and Davies-Boudlin index). At k=2, DTW partitioned the 267-stock universe into groups of [X] and [Y] stocks, while OCP produced a split of 76 and 191 stocks. Pairwise agreement between the two methods' cluster assignments, measured via Adjusted Rand Index, is addressed in Figure 2.
+
 <img width="990" height="735" alt="pairwise_ari_heatmap_sp500_20y" src="https://github.com/user-attachments/assets/a3952b5c-be36-4a05-abbc-dbf2a1bf1075" />
 
 *Figure 2: Pairwise ARI Heatmap* 
