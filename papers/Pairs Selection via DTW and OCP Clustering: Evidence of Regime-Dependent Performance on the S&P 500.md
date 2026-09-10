@@ -36,6 +36,8 @@ Figure 3 examines the hedge ratio, spread, and Z-score of the LLY-RF, a pair can
 
 <img width="1335" height="885" alt="sharpe_comparison_test_sp500_20y" src="https://github.com/user-attachments/assets/1b99dddb-9c5a-4a5f-9647-6e698c940223" />
 
+*Figure 4: Test-period Sharpe Comparison (2018-2025)*
+
 Figure 4 presents the pooled Test-period (2018-2025) Sharpe ratio for each strategy. DTW achieves the highest Sharpe ratio (0.783), followed by OCP (0.696), naive buy-and-hold (0.385), and TOP (0.271). While DTW and OCP both show higher point-estimate Sharpe ratios than naive buy-and-hold, block bootstrap significance testing (discussed below) found neither difference statistically significant in this pooled comparison, motivating the regime-conditional analysis presented later in this section.
 
 <img width="1785" height="1036" alt="cumulative_pnl_test_sp500_20y" src="https://github.com/user-attachments/assets/92509193-fdb2-4215-bb12-bed7c25c4c6b" />
