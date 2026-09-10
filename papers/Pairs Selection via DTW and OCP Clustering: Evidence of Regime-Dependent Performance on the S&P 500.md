@@ -21,7 +21,11 @@ Figure 1 presents the hierarchical clustering dendrograms produced by the DTW an
 
 *Figure 2: Pairwise ARI Heatmap* 
 
+In Figure 2, OCP and TOP achieve the highest pairwise Adjusted Rand Index (ARI) of any method pair (0.740) on Train-period data, indicating substantial agreement in which stocks the two methods group together. Despite the similarities in ARI, the two methods diverge sharply, with TOP underperforming OCP in every risk-adjusted metric during the Test period, though this gap only reaches statistical significance specifically within the bear-market regime. By contrast, DTW and OCP show a lower ARI (0.618), yet their pooled Test-period Sharpe ratios differ by only 0.087 and are statistically indistinct during bear-market weeks specifically (p=0.758). This demonstrates how neither high nor low ARI scores meaningfully predict how two methods will actually perform in a real trading environment.
+
 <img width="2085" height="1486" alt="example_pair_LLY_RF_sp500_20y" src="https://github.com/user-attachments/assets/12bff0e5-fdd3-41a6-bb8e-9e54d90a0c71" />
+
+
 
 *Figure 3: Example pair (LLY-RF pair candidate)*
 
