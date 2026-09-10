@@ -25,10 +25,9 @@ In Figure 2, OCP and TOP achieve the highest pairwise Adjusted Rand Index (ARI) 
 
 <img width="2085" height="1486" alt="example_pair_LLY_RF_sp500_20y" src="https://github.com/user-attachments/assets/12bff0e5-fdd3-41a6-bb8e-9e54d90a0c71" />
 
-
-
 *Figure 3: Example pair (LLY-RF pair candidate)*
 
+Figure 3 examines the hedge ratio, spread, and Z-score of the LLY-RF, a pair candidate independently identified as significant by both OCP and TOP, across the full three-period lifecycle. The hedge ratio drifts steadily upward over the 20-year window, from approximately 0.85 to 1.65, reflecting a genuinely time-varying relationship between the two stocks that a static hedge ratio would fail to incorporate. The spread and z-score, computed from this evolving hedge ratio, show the mean-reverting behavior the strategy is designed to exploit. A short position is triggered when the z-score rises above the entry threshold, and a long position when it falls below the corresponding negative threshold, with both thresholds marked by dotted lines. Notably, there is no instance of discontinuity that appear at either period boundary (marked by discrete lines), validating that the Kalman filter and hedge ratio evolved continuously across the Train, Validation, and Test periods rather than abruptly resetting at each transition.
 
 
 
