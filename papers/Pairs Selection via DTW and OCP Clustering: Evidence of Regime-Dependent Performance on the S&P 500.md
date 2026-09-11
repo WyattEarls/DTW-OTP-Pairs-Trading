@@ -56,6 +56,10 @@ Figure 6 tests the robustness of these methods to the transaction costs they inc
 
 <img width="1484" height="1036" alt="regime_sharpe_comparison_sp500_20y" src="https://github.com/user-attachments/assets/d383777a-5406-4107-904d-21a567425cea" />
 
+*Figure 7: Bull vs. Bear Market Sharpe Ratios (2018-2025)*
+
+Figure 7 illustrates the regime-conditional Sharpe ratio for each strategy, separating bear-market weeks (defined by Q4 2018 correction, the 2020 COVID crash, and the 2022 bear market) from all remaining bull-market weeks. Naive buy-and-hold suffers the most expensive drawdown of any strategy during bear-market weeks, falling to a Sharpe ratio of -2.611, while DTW is the only strategy to maintain a positive bear-market Sharpe ratio (0.116), and OCP falls only modestly into negative territory (-0.197).
+
 ## Robustness Check
 
 ## Discussion
