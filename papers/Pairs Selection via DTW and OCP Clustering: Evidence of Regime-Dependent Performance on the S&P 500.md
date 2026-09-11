@@ -47,10 +47,12 @@ Figure 4 presents the pooled Test-period (2018-2025) Sharpe ratio for each strat
 Figure 5 shows cumulative log returns for all four strategies over the Test period. DTW and OCP track one another closely throughout the window and exhibit substantially smoother paths than naive buy-and-hold, most visibly during the 2020 COVID market crisis, where both dip moderately in comparison to naive's sharp decline. The extended 2022 drawdown is another time period that demonstrates naive's vulnerability to aggressive market regimes, where naive falls well below DTW and OCP before recovering. Naive buy-and-hold leads during the 2021 bull run, consistent with its higher point-estimate bull-market Sharpe ratio, but DTW and OCP close the gap by 2023-2024 and finish the Test period with comparable cumulative returns to naive, having reached that level with notably less volatility along the way.
 
 
-
-
-
 <img width="1335" height="886" alt="transaction_cost_sensitivity_sp500_20y" src="https://github.com/user-attachments/assets/f954566a-fca4-45b4-878e-2bc53f07a969" />
+
+*Figure 6: Test Period Sharpe Sensitivity to Transaction Costs S&P 500 (20-Years)
+
+Figure 6 tests the robustness of these methods to the transaction costs they incur by applying a fixed basis-point deduction to both legs of every position change at four cost levels (0, 5, 10, 20 basis points). DTW and OCP remain well above naive buy-and-hold across the entire range tested, with both ending at their most extreme cost level (20 basis points) still 0.15 to 0.20 Sharpe points above naive. Naive buy-and-hold degrades only marginally across cost levels, reflecting its minimal trading frequency relative to the actively-managed pairs strategies, while TOP degrades the most sharply, falling beneath naive by 5 basis points and revolving around there through the higher cost levels tested. 
+
 
 <img width="1484" height="1036" alt="regime_sharpe_comparison_sp500_20y" src="https://github.com/user-attachments/assets/d383777a-5406-4107-904d-21a567425cea" />
 
