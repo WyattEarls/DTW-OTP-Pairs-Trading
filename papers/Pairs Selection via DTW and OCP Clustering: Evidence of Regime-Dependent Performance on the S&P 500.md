@@ -67,3 +67,5 @@ Figure 7 illustrates the regime-conditional Sharpe ratio for each strategy, sepa
 ### Limitations
 
 ## Conclusion
+
+This study compared DTW, OCP, and TOP as distance metrics for pairs selection within a survivorship-bias-corrected S&P 500 universe, using a formation-period design spanning 20 years (2005-2025) and evaluated against a naive buy-and-hold investment strategy. All three distance metrics converged on a two-cluster partition as the statistically preferred grouping on Train-period data, and OCP and TOP showed the highest pairwise clustering agreement (Adjusted Rand Index score) out of any method pair, despite this relationship failing to predict comparable trading outcomes.
