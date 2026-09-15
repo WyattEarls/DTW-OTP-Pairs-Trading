@@ -64,6 +64,8 @@ Figure 7 illustrates the regime-conditional Sharpe ratio for each strategy, sepa
 
 ## Discussion
 
+The results in the experiment point to a more nuanced performance than simply stating that either method is superior to a naive buy-and-hold method. DTW and OCP both perform significantly better in bear-markets and display superior downside protection compared to the traditional naive strategy. Notably, DTW and OCP are statistically indistinguishable from one another(p=0.758), while rules out the simpler claim that DTW is the better-performing method, despite its higher point-estimate Sharpe ratio in the pooled comparison. Instead of a blanket out-performance claim, the paper's central finding is that DTW and OCP's advantage is regime-dependent, which is consistent with the broader literature on market-neutral trading strategies, designed to sacrifice some upside potential in exchange for capital protection in down-trending markets. 
+
 ### Limitations
 
 ## Conclusion
