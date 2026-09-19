@@ -8,6 +8,8 @@
 
 ## Data
 
+The study universe consists of S&P 500 constituents as of January 1, 2005, identified from a historical index-membership dataset that records the composition of the index at every date that it was altered.
+
 ## Methodology
 
 <img width="2986" height="1185" alt="dtw_dendrogram_sp500_20y" src="https://github.com/user-attachments/assets/0d292eb2-c6cd-4bbd-bc35-116692091802" />
