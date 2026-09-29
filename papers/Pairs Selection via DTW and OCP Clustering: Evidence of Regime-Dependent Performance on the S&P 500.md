@@ -4,6 +4,8 @@
 
 ## Introduction
 
+Pairs trading, a market-neutral strategy that takes offsetting long and short positions in two historically related securities, has been studied extensively as a form of statistical arbitrage since Gatev, Goetzmann, and Rouwenhorst (2006) formalized the distance-based approach to pair selection. A central methodological question in this literature is how candidate pairs are identified in the first place, given that the universe of possible pairs grows quadratically with the number of securities considered.
+
 ## Literature Review
 
 ## Data
