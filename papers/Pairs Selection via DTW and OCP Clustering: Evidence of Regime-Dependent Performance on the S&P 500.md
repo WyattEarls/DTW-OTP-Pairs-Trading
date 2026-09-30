@@ -2,6 +2,9 @@
 
 ## Abstract
 
+We introduce a market-neutral pairs trading strategy with securities selection based on DTW and OCP clustering methods, using a survivorship bias free data set of the S&P 500. The data set is split into a three-period training, validation and testing period (01/01/2005 - 12/31/2025), and the validation periods primarily acts as a tuning process to achieve an increase in trading frequency through minimizing the triggers that set and execute trades. DTW has primarily been used as a clustering mechanism that's well established in the pairs trading literature, while OCP is typically used as a signal generator. Our approach differs in the way that we use OCP, since it's used as clustering methodology in this paper. We test these methodologies as well as a Thermal Optimal Causal Path approach, in comparison with a naive buy-and-hold strategy to document it's effectiveness in bear markets.  
+
+
 ## Introduction
 
 Pairs trading, a market-neutral strategy that takes offsetting long and short positions in two historically related securities, has been studied extensively as a form of statistical arbitrage since Gatev, Goetzmann, and Rouwenhorst (2006) formalized the distance-based approach to pair selection. A central methodological question in this literature is how candidate pairs are identified in the first place, given that the universe of possible pairs grows quadratically with the number of securities considered.
