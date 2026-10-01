@@ -15,8 +15,8 @@ The present study evaluates both frameworks as clustering mechanisms for pair di
 
 We find that DTW and OCP-based pair selection significantly outperforms naive buy-and-hold during bear-market periods, while showing no statistically significant advantage during bull market periods, indicating the benefit of this clustering-based approach is concentrated in periods of market stress rather than uniform across market conditions. This result holds under transaction cost sensitivity analysis and is robust to correction for multiple hypothesis testing.
 
+The remainder of this paper is organized as follows. Section 2 reviews the relevant literature. Section describes the data. Section 4 details the methodology underlying the clustering frameworks. Section 5 presents the results, including the difference in bear- and bull market performance. Section 6 discusses the robustness of the methodology and how common pitfalls, such as look-ahead bias, were avoided. Section 7 concludes the paper.
 
-Section 2 reviews the current literature that already exists in the space. Section 3 examines the data set used in the experiment. Section 4 details the methodology that is used atop the clustering frameworks. Section 5 analyzes the results of the experiment and the bear/bull market difference in performance. Section 6 discusses the robustness of the methodology and how common flaws like look-ahead vias are avoided. Section 7 concludes the paper.
 
 
 
