@@ -9,6 +9,14 @@ We introduce a market-neutral pairs trading strategy with securities selection b
 
 Pairs trading, a market-neutral strategy that takes offsetting long and short positions in two historically related securities, has been studied extensively as a form of statistical arbitrage since Gatev, Goetzmann, and Rouwenhorst (2006) formalized the distance-based approach to pair selection. A central methodological question in this literature is how candidate pairs are identified in the first place, given that the universe of possible pairs grows quadratically with the number of securities considered.
 
+Dynamic Time Warping (DTW) has emerged in the literature as an effective way to find keen temporal relationships between two different securities (Sakoe and Chiba, 1978). Temporal relationships have been detected as one of the most valid approaches to identifying pairs candidates, and have been used broadly throughout the space. Optimal Causal Path is another temporal framework used in modern trading strategies, that is used in lead-lag methodologies as a signal generator (Stubinger).
+
+
+
+
+
+
+
 ## Literature Review
 
 ## Data
