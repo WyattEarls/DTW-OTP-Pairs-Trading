@@ -11,6 +11,10 @@ Pairs trading, a market-neutral strategy that takes offsetting long and short po
 
 Dynamic Time Warping (DTW) has emerged in the literature as an effective way to find keen temporal relationships between two different securities (Sakoe and Chiba, 1978). Temporal relationships have been detected as one of the most valid approaches to identifying pairs candidates, and have been used broadly throughout the space. Optimal Causal Path is another temporal framework used in modern trading strategies, that is used in lead-lag methodologies as a signal generator (Stubinger).
 
+The present experiment evaluates these frameworks using different methods in tangent with other effective candidate identifiers like cointegration and Benjamini-Hochberg correction for false positives. These frameworks have shown effective on a multititude of different securities, such as stocks across various industries and global indexes (Han et al., 2023; Portrykus, 2024; Saenz et al., 2023). This paper studies the effects of these clustering methodologies tested against 20 years of survivorship-free data on the S&P 500 (2005-2025) and compares the performance against a naive buy-and-hold framework while also factoring trading execution costs via basis point deductions. 
+
+Section 2 reviews the current literature that already exists in the space. Section 3 examines the data set used in the experiment. Section 4 details the methodology that is used atop the clustering frameworks. Section 5 analyzes the results of the experiment and the bear/bull market difference in performance. Section 6 discusses the robustness of the methodology and how common flaws like look-ahead vias are avoided. Section 7 concludes the paper.
+
 
 
 
