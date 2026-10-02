@@ -17,18 +17,11 @@ We find that DTW and OCP-based pair selection significantly outperforms naive bu
 
 The remainder of this paper is organized as follows. Section 2 reviews the relevant literature. Section 3 describes the data. Section 4 details the methodology underlying the clustering frameworks. Section 5 presents the results, including the difference in bear- and bull market performance. Section 6 discusses the robustness of the methodology and how common pitfalls, such as look-ahead bias, were avoided. Section 7 concludes the paper.
 
-
-
-
-
-
-
-
 ## Literature Review
 
 ## Data
 
-The study universe consists of S&P 500 constituents as of January 1, 2005, identified from a historical index-membership dataset that records the composition of the index at every date that it was altered.
+The study universe consists of S&P 500 constituents as of January 1, 2005, identified from a historical index-membership dataset that records the composition of the index at every date that it was altered. This approach avoids the survivorship bias, since it identifies which stocks were actually members of the index at the study's start date rather than which stocks are members of the index currently. Historical tickers carrying a delisting-date suffix, a convention used by the source dataset to disambiguate ticker symbols later reused by unrelated companies, were programmatically stripped and deduplicated before matching against Yahoo Finance.
 
 ## Methodology
 
